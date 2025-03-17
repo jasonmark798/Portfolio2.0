@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+
+}
+
+body {
+    /* background: linear-gradient(180deg, #000000, black, #2a2a2a, #a9a9a9,white, #323232, #191919, #0d0d0d, #000000); */
+    background-color: #000000;
+}
+
+/*CABEÇALHO*/
+
+header {
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    color: #fc0a47;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    display: flex;
+    padding: 15px;
+    height: 100px;
+    width: 1515px;
+    align-items: center; 
+    border-bottom: 1px solid white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 150px;
+    margin-right: 20px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+a:hover {
+    transform: scale(1.1);
+    color: #fc0a47;
+    transition: text-shadow 0.2s, color 0.2s ,transform 0.2s ease-in-out;
+}
+
+/*CABEÇALHO*/
+
+/*INICIO*/
+
+img#fundo {
+    z-index: -1;
+    position: relative;
+    bottom: 50px;
+    width: 1513px;
+    height: 850px;
+    border-radius: 2px;
+    box-shadow: -1px 5px 5px black;
+    border-bottom: 1px solid white;
+
+}
+
+
+h1#Nome {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    z-index: 0;
+    font-size: 100px;
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+}
+
+img#MinhaImagem {
+    border: 2px solid black;
+    border-radius: 1000px;
+    width: 550px;
+    position: relative;
+    bottom: 850px;
+    left: 900px;
+    box-shadow: 2px 2px 5px black;
+}
+
+h2#frase {
+    font-size: 50px;
+    position: relative;
+    bottom: 1200px;
+    color: #fc0a47;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    width: 800px;
+    margin-left: 40px;
+}
+
+/*INICIO*/
+
+
+/*MINHAS SKILLS*/
+
+
+
+
+h1#MinhasSkills {
+    color: #fc0a47;
+    text-align: center;
+    position: relative;
+    bottom: 750px;
+    font-size: 80px;
+
+}
+
+
+div#labels {
+
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 720px;
+}
+
+div#containerPAI {
+    padding-top: 50px;
+    position: relative;
+    bottom: 730px;
+    width: 750px;
+    height: 390px;
+    background-color: transparent;
+    display: block;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    border-right: 1px solid white;
+}
+
+div#containerFILHO {
+    font-size: 30px;
+    color: white;
+    width: 750px;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+div#containerFILHO label {
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+}
+
+div#containerFILHO:hover {
+    color: #fc0a47;
+    text-shadow: 5px 5px 10px black;
+    transition: color 0.4s, text-shadow 0.1s ease-in-out;
+}
+
+div#containerFILHO i {
+    font-size: 40px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+
+div#containerFILHO2 {
+    font-size: 30px;
+    color: white;
+    width: 762px;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+div#containerFILHO2:hover {
+    color: #fc0a47;
+    transition: color 0.4s ease-in-out;
+}
+
+div#containerFILHO2 label {
+    position: relative;
+    text-align: center;
+    position: relative;
+    left: 750px;
+    bottom: 250px;
+}
+
+div#containerFILHO2 i {
+    position: relative;
+    text-align: center;
+    position: relative;
+    margin-left: 1320px;
+    bottom: 285px;
+
+}
+/*MINHAS SKILLS*/
+
+/*CERTIFICADOS*/
+div h1#CERTIFICADOS {
+    position: relative;
+    bottom: 600px;
+    color: #fc0a47;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+ul#CertPAI {
+    position: relative;
+    bottom: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li#CertFILHO1 {
+    height: 380px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 50px;
+    background: url(../IMG/certificado_Algortmos.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+li#CertFILHO2 {
+    height: 380px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 50px;
+    background: url(../IMG/certificado_ingles.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+}
+li#CertFILHO3 {
+    height: 380px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 50px;
+    background: url(../IMG/Certificado_info.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+}
+li#CertFILHO4 {
+    height: 380px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 50px;
+    background: url(../IMG/certificado_TI.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+
+ul#CertPAI li:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s, box-shadow 0.4s ease-in-out;
+
+
+}
+
+li span {
+    color: #fc0a47;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ ul#CertPAI li:hover span {
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
+
+}
+
+/*CERTIFICADOS*/
+
+/*PROJETOS*/
+
+div#PROJETOS h1 {
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    color: #fc0a47;
+    font-size: 80px;
+
+}
+
+ul#FILHO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+ul#FILHO li {
+    position: relative;
+    bottom: 300px;
+    width: 400px;
+    height: 380px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+ul#FILHO li:hover {
+    transform: scale(1.3);
+    transition: transform 0.4s ease-in-out;
+
+}
+
+ul#FILHO li#PROJETO1 {
+    background: url(../IMG/PrimeiroSite_Portfolio.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover ;
+
+}
+
+ul#FILHO li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    color: #fc0a47;
+    opacity: 0;
+    text-decoration: none;
+    top: 40px;
+
+}
+
+ul#FILHO li:hover a{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: transform 0.4s, opacity 0.4s ease-in-out;
+    text-shadow: none;
+}
+
+/*PROJETOS*/
+
+/*CONTATO*/
+    div#contato h1 {
+        text-align: center;
+        font-size: 80px;
+        color: #fc0a47;
+        position: relative;
+        top: -100px;
+    }
+    
+
+    div#contato {
+        text-align: center;
+
+    }
+    div#contato a {
+        color: white;
+        position: relative;
+        bottom: -10px;
+        font-size: 80px;
+        margin: 50px;
+        
+    }
+
+    div#contato i:hover {
+        color: #fc0a47;
+        transform: scale(1.6);
+        text-shadow: 1px 1px 1px black;
+        transition: transform 0.4s, color 0.4s ease-in-out;
+    }
+
+    div#contato i {
+        
+    }
+
+
+/*CONTATO*/
+
+/*FOOTER*/
+footer {
+    margin-top: 300px;
+    position: relative;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+footer div#arrow i {
+    color: #fc0a47;
+    font-size: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 200px;
+    opacity: 0;
+}
+
+
+footer a#Pracima {
+    position: relative;
+    bottom: 200px;
+    text-decoration: none;
+    color:  white;
+    font-size: 50px;
+
+}
+
+footer div#arrow a:hover {
+    transform: scale(1.2);
+    color: #fc0a47;
+    transition: transform 0.4s, color 0.4s ease-in-out;
+    opacity: 1;
+}
+footer h1 {
+    color: #fc0a47;
+    font-size: 60px;
+    position: relative;
+    bottom: 120px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+}
+
+footer a#links {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+footer a#links:hover {
+    color: #fc0a47;
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: transform 0.4s, color 0.4s, text-decoration 0.4s ease-in-out;
+}
+
+
+
+
+/*FOOTER*/
