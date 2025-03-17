@@ -92,7 +92,7 @@ img#MinhaImagem {
 h2#frase {
     font-size: 55px;
     position: relative;
-    bottom: 1150px;
+    bottom: 1050px;
     color: #fc0a47;
     text-shadow: 2px 2px 2px black;
     text-align: center;
@@ -134,7 +134,7 @@ h1#MinhasSkills {
     color: #fc0a47;
     text-align: center;
     position: relative;
-    bottom: 670px;
+    bottom: 500px;
     font-size: 80px;
 
 }
@@ -145,7 +145,7 @@ div#labels {
     font-size: 30px;
     color: white;
     position: relative;
-    bottom: 720px;
+    bottom: 400px;
 }
 
 div#containerPAI {
