@@ -76,6 +76,7 @@ h1#Nome {
     position: relative;
     top: 200px;
     margin-left: 200px;
+    width: 520px;
 }
 
 img#MinhaImagem {
@@ -89,14 +90,36 @@ img#MinhaImagem {
 }
 
 h2#frase {
-    font-size: 50px;
+    font-size: 55px;
     position: relative;
-    bottom: 1200px;
+    bottom: 1150px;
     color: #fc0a47;
     text-shadow: 2px 2px 2px black;
     text-align: center;
-    width: 800px;
+    width: 785px;
     margin-left: 40px;
+}
+
+h2#frase{
+    animation: typing 2s steps(50), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 5px;
+    border-right: 3px solid #fc0a47;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        
+    }
+    
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
 /*INICIO*/
@@ -111,7 +134,7 @@ h1#MinhasSkills {
     color: #fc0a47;
     text-align: center;
     position: relative;
-    bottom: 750px;
+    bottom: 670px;
     font-size: 80px;
 
 }
@@ -128,7 +151,7 @@ div#labels {
 div#containerPAI {
     padding-top: 50px;
     position: relative;
-    bottom: 730px;
+    bottom: 630px;
     width: 750px;
     height: 390px;
     background-color: transparent;
@@ -314,7 +337,7 @@ ul#FILHO {
 
 ul#FILHO li {
     position: relative;
-    bottom: 300px;
+    bottom: 220px;
     width: 400px;
     height: 380px;
     background-color: transparent;
@@ -336,6 +359,28 @@ ul#FILHO li#PROJETO1 {
 
 }
 
+
+ul#FILHO li#PROJETO2 {
+    color: #fc0a47;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul#FILHO li#PROJETO3 {
+    color: #fc0a47;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 ul#FILHO li a {
     display: flex;
     justify-content: center;
@@ -346,15 +391,16 @@ ul#FILHO li a {
     color: #fc0a47;
     opacity: 0;
     text-decoration: none;
-    top: 40px;
+    top: 100px;
+   
 
 }
 
 ul#FILHO li:hover a{
     opacity: 1;
+    text-shadow: 2px 2px 2px black;
     transform: scale(1.2);
-    transition: transform 0.4s, opacity 0.4s ease-in-out;
-    text-shadow: none;
+    transition: transform 0.4s, text-shadow 0.4s, opacity 0.4s ease-in-out;
 }
 
 /*PROJETOS*/
@@ -404,20 +450,10 @@ footer {
     text-align: center;
 }
 
-footer div#arrow i {
-    color: #fc0a47;
-    font-size: 60px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    bottom: 200px;
-    opacity: 0;
-}
-
 
 footer a#Pracima {
     position: relative;
-    bottom: 200px;
+    bottom: 150px;
     text-decoration: none;
     color:  white;
     font-size: 50px;
@@ -434,14 +470,14 @@ footer h1 {
     color: #fc0a47;
     font-size: 60px;
     position: relative;
-    bottom: 120px;
+    bottom: 50px;
 }
 
 footer h2 {
     color: white;
     font-size: 20px;
     position: relative;
-    bottom: 100px;
+    bottom: 35px;
 }
 
 footer a#links {
@@ -450,7 +486,7 @@ footer a#links {
     margin-right: 10px;
     font-size: 25px;
     position: relative;
-    bottom: 50px;
+    bottom: 20px;
 }
 
 footer a#links:hover {
